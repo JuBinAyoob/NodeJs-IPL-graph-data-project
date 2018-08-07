@@ -1,0 +1,48 @@
+@import 'https://code.highcharts.com/css/highcharts.css';
+
+.button-area{
+	width: 71%;
+	margin:auto;
+}
+.buttons{
+	padding:10px;
+	margin-left: 6px;
+	background-color: beige;
+    border-radius: 10px;
+}
+.graph-area{
+	width: 100%;
+}
+#container {
+	min-width: 320px;
+	max-width: 90%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+#story {
+	min-width: 320px;
+	max-width: 50%;
+	margin: 0 auto;
+}
+.description{
+	text-align: center;
+}
+.highcharts-pie-series .highcharts-point {
+	stroke: #EDE;
+	stroke-width: 2px;
+}
+.highcharts-pie-series .highcharts-data-label-connector {
+	stroke: silver;
+	stroke-dasharray: 2, 2;
+	stroke-width: 2px;
+}
+.story-det{
+	max-width: 60%;
+	margin: 0 auto;
+}
+#story-p{
+	font-family: sans-serif;
+    margin: auto;
+	width: 100%;
+	font-size: 15px;
+}

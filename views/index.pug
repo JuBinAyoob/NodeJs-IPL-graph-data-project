@@ -1,0 +1,26 @@
+html
+    head
+        meta(charset='UTF-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        link(rel='stylesheet', href='/static/css/common-styles.css')
+        title IPL 
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+        script(src='https://code.jquery.com/jquery-3.1.1.min.js')
+        script(src='https://code.highcharts.com/highcharts.js')
+        script(src='https://code.highcharts.com/highcharts-more.js')
+        script(src='https://code.highcharts.com/modules/exporting.js')
+        script(src='https://code.highcharts.com/modules/export-data.js')
+        script(src='/static/js/ipl.js')
+    body
+        div(class='button-area')
+            button(class='buttons', id='num-matches-year') Number Of Matches per year
+            button(class='buttons', id='matches-won') Matches won by team
+            button(class='buttons', id='extra-runs') Extra runs conceded per team on 2016
+            button(class='buttons', id='bowler-economy') Top economical bowlers at 2015
+            button(class='buttons', id='story-line') Story Line
+        div(id='container')
+        div(id='story-chart')
+        div(class='story-det')
+            h3(class='description') Description about Data
+            p(id='story-p')
